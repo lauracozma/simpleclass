@@ -1,0 +1,10 @@
+Package: simpleclass
+Title: Handwritten digit recognition using kNN classification. Discriminant function for a two-dimensional dataframe with 3 categories.
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Images of handwritten digits are used to train a simple kNN classifier. Each observation is 16x16 pixel grayscale image which is represented in a single row as 256 features. Each of 256 pixels is represented by a floating point number indicating the grayscale intensity at that location in the image. True label is at a first position in a row, it identifies which digit is represented in a row with an integer from 0 to 9.
+Depends: R (>= 3.1.1), assertthat
+License: see LICENCE
+Date: 2015-02-13
+Type: Package
+
